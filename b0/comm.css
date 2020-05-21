@@ -1,0 +1,25 @@
+@charset "utf-8";
+    * {margin: 0; padding: 0;}
+    body, html {width: 100%; min-width: 1280px; font-family:  'noto sans kr', sans-serif; font-weight: 400;}
+    ul {list-style:none;}
+    a { text-decoration: none; user-select:none;}
+    .tit22 {color: deeppink; position: :absolute; width: 50%; top:20px; font-size:32px; left:25%; text-align:center;}
+    .wrap {width:  1280px; margin: 0 auto;}
+
+    .hd{ width: 100%; height: 140px; position: relative ;}
+    .logo {display:block; float: left; margin-top: 20px;}
+    .tnb {float:left; margin:-top: 20px;}
+    .tnb li{ float: left; margin-left: 20px;}
+    .tnb li a {color: #333;}
+    .tnb li a:hover {color: tomato;}
+    .gnb {clear:both; width: 100%; position: absolute; bottom: 0; left: 0;}
+    .gnb li{float:left; width:  20%;}
+    .gnb li a {display: block; color: #333;font-size: 18px; text-align: center; height: 42px; line-height: 42px; border-bottom: 2px solid transparent;}
+    .gnb li a:hover {
+        border-bottom: 2px solid deeppink; color: deeppink;
+    } 
+       /* 푸터의 영역표시 */
+       .ft{clear: both; width: 100%; margin-top: 10px; border-top: 3px; solid #333; background-color: #444444; column : #ffffff;}
+       .ft_wrap, .fnb {clear: both; width: 1280px; margin: 10px; auto;}
+       .fnb li {float:left padding:15px;}
+       .fnb li a {color: }
